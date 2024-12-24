@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form method="post">
+            {% csrf_token %}
+            <label for="num1">Name:</label>
+            <input type="text" id="num1" name="name" required>
+            <br>
+            <label for="num2">Email:</label>
+            <input type="text" id="num2" name="email" required>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

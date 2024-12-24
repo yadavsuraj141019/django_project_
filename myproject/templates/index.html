@@ -1,0 +1,12 @@
+<html>
+    <head>
+         {% comment %} {{}} double curly bracket ke andar uska key pass kar do aur print ho jayega us key ka data {% endcomment %}
+        <title>{{title}}</title>  
+    </head>
+    <body>
+        {% comment %} neeche vala example se hamko for loop ko use karna hai html mai like {%%} {% endcomment %}
+        {%for n in clist%} 
+        <div> {{n}} </div>
+        {% endfor %}
+    </body>
+</html>
